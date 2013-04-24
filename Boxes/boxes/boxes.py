@@ -1,7 +1,10 @@
 
 
 def main():
-    print "holahola"
+    f = open('file.txt')
+    for line in f:
+        print line
+        
     return 0
 
 
